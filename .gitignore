@@ -1,4 +1,4 @@
-# Only public notes, reviewed screenshots and issue forms belong here.
+# Only public notes, reviewed screenshots, the app logo and issue forms belong here.
 /*
 !/.gitattributes
 !/.gitignore
@@ -10,6 +10,7 @@
 /images/*
 !/images/review.png
 !/images/results.png
+!/images/maxon-remover.png
 !/.github/
 /.github/*
 !/.github/ISSUE_TEMPLATE/

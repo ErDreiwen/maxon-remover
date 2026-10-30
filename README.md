@@ -1,3 +1,5 @@
+<img src="images/maxon-remover.png" alt="Maxon Remover logo" width="96" height="96">
+
 # Maxon Remover
 
 Scan, review and remove Maxon folders on Windows.

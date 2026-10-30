@@ -5,8 +5,10 @@
 ### Improved
 - Clearer steps in the portable download's instructions.
 - Screenshots on the project page show the review and results screens.
+- The project page now includes the app logo.
 
 ### Fixed
+- Size sorting now puts items in the right order across KiB, MiB and GiB. The chosen sort is kept after a scan.
 - Opening and closing Exclusions no longer starts another scan unless the folders change. Your selection stays as it was.
 
 This release is being prepared. The removal behaviour is unchanged from 0.1.4.
