@@ -1,4 +1,4 @@
-# Only public notes and issue forms belong in this repository.
+# Only public notes, reviewed screenshots and issue forms belong here.
 /*
 !/.gitattributes
 !/.gitignore
@@ -6,6 +6,10 @@
 !/CHANGELOG.md
 !/LICENSE
 !/SECURITY.md
+!/images/
+/images/*
+!/images/review.png
+!/images/results.png
 !/.github/
 /.github/*
 !/.github/ISSUE_TEMPLATE/

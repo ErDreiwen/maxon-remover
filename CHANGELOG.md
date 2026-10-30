@@ -1,5 +1,13 @@
 # What's changed
 
+## 0.1.5 — Alpha · In preparation
+
+### Improved
+- Clearer steps in the portable download's instructions.
+- Screenshots on the project page show the review and results screens.
+
+This release is being prepared. The removal behaviour is unchanged from 0.1.4.
+
 ## 0.1.4 — Alpha · 29 October 2026
 
 First release. The download is being prepared.

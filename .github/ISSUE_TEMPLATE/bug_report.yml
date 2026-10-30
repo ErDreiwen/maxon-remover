@@ -10,7 +10,7 @@ body:
     attributes:
       label: Version and internal revision
       description: Find these in build-info.json beside Maxon Remover.exe.
-      placeholder: "0.1.4, revision 3"
+      placeholder: "0.1.5, revision 0"
     validations:
       required: true
   - type: input
