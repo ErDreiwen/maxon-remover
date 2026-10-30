@@ -1,0 +1,17 @@
+# Only public notes and issue forms belong in this repository.
+/*
+!/.gitattributes
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/LICENSE
+!/SECURITY.md
+!/.github/
+/.github/*
+!/.github/ISSUE_TEMPLATE/
+/.github/ISSUE_TEMPLATE/*
+!/.github/ISSUE_TEMPLATE/bug_report.yml
+!/.github/ISSUE_TEMPLATE/config.yml
+!/.github/ISSUE_TEMPLATE/feature_request.yml
+.env*
+**/.env*

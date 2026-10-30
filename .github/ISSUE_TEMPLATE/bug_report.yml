@@ -1,0 +1,41 @@
+name: Bug report
+description: Describe a problem with scanning, the interface, or removal.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload unedited local logs, personal paths, credentials, or license files. Review and redact anything you share. Security issues should follow SECURITY.md."
+  - type: input
+    id: version
+    attributes:
+      label: Version and internal revision
+      description: Find these in build-info.json beside Maxon Remover.exe.
+      placeholder: "0.1.4, revision 3"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 x64"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the affected Maxon product/version, if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: Include the English error message and whether the item stayed in the list.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional redacted evidence
+      description: A small relevant excerpt or screenshot is enough. Check it for private information first.
