@@ -6,6 +6,9 @@
 - Clearer steps in the portable download's instructions.
 - Screenshots on the project page show the review and results screens.
 
+### Fixed
+- Opening and closing Exclusions no longer starts another scan unless the folders change. Your selection stays as it was.
+
 This release is being prepared. The removal behaviour is unchanged from 0.1.4.
 
 ## 0.1.4 — Alpha · 29 October 2026
