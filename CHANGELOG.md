@@ -1,61 +1,60 @@
 # What's changed
 
-## 0.1.5 — Alpha · In preparation
+## 0.1.5 — Alpha · 30 October 2026
 
 ### Improved
-- Clearer steps in the portable download's instructions.
-- Screenshots on the project page show the review and results screens.
-- The project page now includes the app logo.
+- Revised portable-package instructions.
+- Added review/results screenshots and the app logo to the project page.
 
 ### Fixed
-- Size sorting now puts items in the right order across KiB, MiB and GiB. The chosen sort is kept after a scan.
-- Opening and closing Exclusions no longer starts another scan unless the folders change. Your selection stays as it was.
+- Size values sort numerically across KiB, MiB and GiB. The selected sort order persists after a scan.
+- Closing Exclusions without changes preserves the current scan and selection.
 
-This release is being prepared. The removal behaviour is unchanged from 0.1.4.
+Build 0.1.5.2 is unsigned. Removal behaviour is unchanged from 0.1.4.
 
 ## 0.1.4 — Alpha · 29 October 2026
 
-First release. The download is being prepared.
+Initial alpha release. Superseded by 0.1.5.
 
 ### Added
-- One app window at a time, even across different copies.
-- A moving line shows when scanning or removing is still running.
+- Single-instance enforcement. Subsequent launches activate the existing window.
+- Animated progress indicators during scan and removal operations.
 
 ### Improved
-- Results turn green when everything worked, or amber if something needs a look.
-- Failed items stay in the list, with a reason you can read.
-- One click clears the selection. Long rows expand when you click them.
-- A lighter selection control, plus an app icon and proper taskbar name.
+- Green completion state; amber for failed, partial or incomplete operations.
+- Failed and partial removals remain listed with an error message.
+- Single-click the selection header to clear all selected rows. Click truncated text to expand its row.
+- Reduced selection-control contrast; added application icon and taskbar identity.
 
-Personal folders, renamed backups and Adobe components stay protected.
+Personal folders, renamed backups and Adobe components are excluded from removal.
 
 ## Pre-release
 
-These are the early development builds.
+Earlier development builds.
 
 ### 0.1.3 — 29 October 2026
-**Improved:** More space around the blue selection box, with a lighter fill and a little glass shading.
+**Improved:** Increased control inset, reduced fill contrast and adjusted glass shading.
 
 ### 0.1.2 — 29 October 2026
 **Added**
-- Double-click either list to open a folder's location in Explorer.
-- Music, pictures, videos, public folders and OneDrive locations are excluded.
+- Double-click a location in either list to open it in File Explorer.
+- Added default exclusions for Music, Pictures, Videos, public folders and OneDrive locations.
 
 **Improved**
-- The exclusions window grows to fit the list.
-- The select-all box changes from pale blue to red when everything is checked.
+- Exclusions window resizes to fit its contents within screen bounds.
+- Select-all indicator changes from pale blue to red when all removable items are selected.
 
 ### 0.1.1 — 29 October 2026
 **Added**
-- Click clipped text to expand a row. Rows stay open until you click outside the list.
+- Click truncated text to expand its row. Expanded rows persist until a click outside the list.
 - Double-click the first header cell to select all removable items.
 
 **Improved**
-- Long paths wrap properly, while copying still gives you the original path.
-- Shorter, clearer wording for the app and its exclusions.
+- Long paths wrap across lines; clipboard copies retain the original path.
+- Revised interface labels and exclusion descriptions.
 
 ### 0.1.0 — 29 October 2026
 **Added**
-- Scan, review and remove recognised Maxon installations and leftovers.
-- Personal folders, renamed backups and Adobe components are excluded.
-- Local results, a fresh scan before removal, and an option to stop after the current item.
+- Installation detection, registered-product uninstallation and selected residual-file cleanup for supported Maxon products.
+- Default exclusions for personal folders, renamed backups and Adobe components.
+- Local reports, pre-removal scan validation and cancellation between removal items.

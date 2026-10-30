@@ -4,9 +4,11 @@
 
 Scan, review and remove Maxon folders on Windows.
 
-**0.1.5 Alpha is being prepared.** The download will appear here when it is ready.
+**[Download 0.1.5 Alpha](https://github.com/ErDreiwen/maxon-remover/releases/tag/v0.1.5)** · Windows 10/11, 64-bit
 
-When available, unzip the download and open **Maxon Remover.exe**. Check the items you want to remove, then choose **Remove selected**.
+Extract the portable ZIP and open **Maxon Remover.exe**. Check the items you want to remove, then choose **Remove selected**.
+
+This alpha build is unsigned. The release includes SHA-256 checksums.
 
 Personal folders and Adobe components are excluded. Selected leftovers are deleted permanently. The app won't restart your PC.
 
